@@ -1,0 +1,264 @@
+@media (max-width: 1230px) {
+  .home__wrapper {
+    padding: 25px;
+  }
+  .home__wrapper {
+    flex-direction: column;
+  }
+  .virtual-healthcare__title {
+    max-width: 1000px;
+  }
+  .virtual-healthcare__text {
+    max-width: 1000px;
+  }
+  .home__btn {
+    display: block;
+    margin: 0 auto;
+  }
+  .home__image {
+    margin-top: 50px;
+  }
+  .providers__wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .providers__title,
+  .app__title {
+    max-width: 1000px;
+    text-align: center;
+  }
+  .providers__title::after,
+  .app__title::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .providers__text,
+  .app__text {
+    max-width: 1000px;
+  }
+  .providers__btn,
+  .app__btn {
+    display: block;
+    margin: 0 auto;
+  }
+  .app__wrapper {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .app__wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .article {
+    padding-top: 100px;
+  }
+  .article__wrapper {
+    flex-direction: column;
+    padding-bottom: 50px;
+  }
+  .article__item {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .article__item-title {
+    margin-left: 20px;
+  }
+  .article__text {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .article__link {
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .virtual-healthcare__title {
+    font-size: 40px;
+  }
+  .virtual-healthcare__text {
+    font-size: 18px;
+  }
+  .services__wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .services__item-link {
+    margin: 0 auto;
+  }
+  .services__item-title {
+    margin: 0 auto;
+  }
+  .services__item {
+    width: 100%;
+    height: auto;
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+  .services__item-text {
+    max-width: 1000px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .title {
+    font-size: 32px;
+  }
+  .providers__img {
+    padding-top: 50px;
+  }
+  .testimonials__wrapper {
+    height: auto;
+  }
+  .testimonials__item {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .testimonials__image {
+    margin-left: 0;
+    margin-bottom: 30px;
+  }
+  .testimonials__content {
+    padding-right: 0;
+    padding-bottom: 25px;
+  }
+  .testimonials__text {
+    max-width: 850px;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+  .article {
+    padding-top: 50px;
+  }
+  .footer {
+    padding-bottom: 0;
+  }
+  .footer__wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer__item {
+    width: 50%;
+    padding-left: 50px;
+    margin-bottom: 50px;
+  }
+  .footer__item:nth-child(even) {
+    padding-left: 150px;
+  }
+  .footer__link {
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 920px) {
+  .menu {
+    display: none;
+  }
+  .testimonials__title {
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: 700px) {
+  .virtual-healthcare__title {
+    font-size: 32px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .virtual-healthcare__text,
+  .providers__text,
+  .app__text {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .services__text,
+  .services__item-text,
+  .testimonials__text,
+  .footer__text {
+    font-size: 16px;
+  }
+  .home__image {
+    margin-top: 20px;
+  }
+  .title {
+    font-size: 28px;
+    margin-bottom: 40px;
+  }
+  .article {
+    padding-top: 20px;
+  }
+  .article__wrapper {
+    padding-top: 15px;
+  }
+  .footer {
+    padding-top: 50px;
+  }
+  .footer__item {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 0;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  .footer__item:nth-child(even) {
+    padding-left: 0;
+  }
+  .footer__title {
+    margin-bottom: 20px;
+  }
+  .footer__link {
+    padding-right: 0;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .footer__text {
+    text-align: start;
+    margin: 0 auto 10px;
+  }
+  .footer__rights {
+    text-align: start;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+@media (max-width: 550px) {
+  .virtual-healthcare__title {
+    font-size: 28px;
+    margin: 0;
+  }
+  .virtual-healthcare__text {
+    margin-top: 15px;
+  }
+  .title {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 400px) {
+  .testimonials__person {
+    flex-direction: column;
+  }
+  .person__wrapper {
+    padding-left: 0;
+  }
+  .testimonials__position {
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+  }
+  .article__item-title {
+    font-size: 19px;
+  }
+}

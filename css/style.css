@@ -124,8 +124,9 @@ body {
   background: #458ff6;
 }
 
-.home__image img {
+.home__image {
   display: block;
+  max-width: 100%;
 }
 
 /* SERVICES */
@@ -137,10 +138,10 @@ body {
 .services__text {
   font-size: 18px;
   line-height: 1.67;
-  text-align: center;
+  text-align: start;
   color: #7d7987;
   max-width: 1020px;
-  margin-top: 60px;
+  margin: 60px auto 15px;
 }
 
 .services__wrapper {
@@ -199,6 +200,7 @@ body {
 
 .providers__img {
   display: block;
+  max-width: 100%;
 }
 
 .providers__title {
@@ -219,7 +221,8 @@ body {
   margin-bottom: 40px;
 }
 
-.providers__btn {
+.providers__btn,
+.app__btn {
   color: #458ff6;
   border: 1.4px solid #458ff6;
 }
@@ -253,6 +256,7 @@ body {
 
 .app__image {
   display: block;
+  max-width: 100%;
 }
 
 /* TESTIMONIALS */
@@ -262,6 +266,7 @@ body {
   border-radius: 24px;
   max-width: 1120px;
   height: 425px;
+  margin: 0 auto;
 }
 
 .testimonials__title {
@@ -350,6 +355,7 @@ body {
 
 .article__image {
   display: block;
+  max-width: 100%;
 }
 
 .article__item-title {
