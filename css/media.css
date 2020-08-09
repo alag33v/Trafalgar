@@ -159,14 +159,32 @@
   .footer__link {
     padding-right: 20px;
   }
+  .slick-dots {
+    margin-top: 0;
+    padding-bottom: 30px;
+  }
+  .slick-dots button {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  .slick-active button {
+    background-color: #fff;
+  }
 }
 
 @media (max-width: 920px) {
+  body.block {
+    overflow: hidden;
+    height: 100%;
+  }
   .menu {
     display: none;
   }
   .testimonials__title {
     padding-top: 40px;
+  }
+  .burger__button-wrapper {
+    display: flex;
+    margin-right: 25px;
   }
 }
 
@@ -243,6 +261,9 @@
   }
   .title {
     font-size: 24px;
+  }
+  .burger__button-wrapper {
+    margin-right: 10px;
   }
 }
 
