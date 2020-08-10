@@ -195,7 +195,7 @@ body {
 }
 
 .mobile__logo-img {
-  display: block;
+  display: inline-block;
 }
 
 .mobile-nav__item {
