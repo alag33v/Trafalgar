@@ -202,8 +202,7 @@
   }
   .services__text,
   .services__item-text,
-  .testimonials__text,
-  .footer__text {
+  .testimonials__text {
     font-size: 16px;
   }
   .home__image {
@@ -244,10 +243,9 @@
     text-align: start;
     margin: 0 auto 10px;
   }
+  .footer__text,
   .footer__rights {
-    text-align: start;
-    margin: 0 auto;
-    display: block;
+    display: none;
   }
 }
 
