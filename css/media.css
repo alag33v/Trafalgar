@@ -175,7 +175,7 @@
   body.block {
     overflow: hidden;
     height: 100%;
-    position: fixed;
+    position: relative;
   }
   .menu {
     display: none;
