@@ -19,8 +19,8 @@ $(document).ready(function () {
   $('[data-scroll]').on('click', function (evt) {
     evt.preventDefault();
 
-    let elementClass = $(this).data('scroll');
-    let elementOffset = $(elementClass).offset().top;
+    const elementClass = $(this).data('scroll');
+    const elementOffset = $(elementClass).offset().top;
 
     $('html, body').animate(
       {
@@ -30,16 +30,18 @@ $(document).ready(function () {
     );
   });
   /* Burger menu */
-  let wrapper = document.querySelector('.burger__button-wrapper');
-  let burger = document.querySelector('.burger__button');
-  let mobileNav = document.querySelector('.menu__mobile-nav');
-  let mobileLink = document.querySelectorAll('.mobile-nav__link');
-  let body = document.querySelector('body');
+  const wrapper = document.querySelector('.burger__button-wrapper');
+  const burger = document.querySelector('.burger__button');
+  const mobileNav = document.querySelector('.menu__mobile-nav');
+  const mobileLink = document.querySelectorAll('.mobile-nav__link');
+  const html = document.querySelector('html');
+  const body = document.querySelector('body');
 
   wrapper.addEventListener('click', (e) => {
     e.preventDefault();
     burger.classList.toggle('active');
     mobileNav.classList.toggle('menu__mobile-nav--active');
+    html.classList.toggle('block');
     body.classList.toggle('block');
   });
 

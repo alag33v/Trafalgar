@@ -172,6 +172,10 @@
 }
 
 @media (max-width: 920px) {
+  html.block {
+    overflow: hidden;
+    height: 100%;
+  }
   body.block {
     overflow: hidden;
     height: 100%;
