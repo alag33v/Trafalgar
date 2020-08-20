@@ -50,6 +50,7 @@ $(document).ready(function () {
       evt.preventDefault();
       burger.classList.toggle('active');
       mobileNav.classList.remove('menu__mobile-nav--active');
+      html.classList.remove('block');
       body.classList.remove('block');
     });
   }
